@@ -533,7 +533,7 @@ void StartControlTask(void *argument) {
 				// Mozgás kezelés
 				if (motion == GPIO_PIN_SET) {
 					was_motion = 1;
-					full_brightness_timer = 10; // debug miatt rövidebb: 10ciklus=5sec; (25s/0.5s = 50 ciklus a feladat szerint)
+					full_brightness_timer = 50; // 25s/0.5s = 50 ciklus
 				}
 
 				if (was_motion && full_brightness_timer > 0) {
