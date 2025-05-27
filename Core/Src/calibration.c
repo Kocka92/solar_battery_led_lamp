@@ -42,7 +42,7 @@ bool CalibrateValue(const CalibrationParams_t *params, uint16_t raw, float *resu
 			/ (params->raw_max - params->raw_min);
 	*result = params->measured_min + alpha * (params->measured_max - params->measured_min); 	// Lineáris interpoláció kiszámítása
 
-	return true;				//ha sikerült minden akkor az eredmény a result-ban van
+	return true;
 }
 
 bool IsCalibrationValid(const CalibrationParams_t *params) {

@@ -31,7 +31,6 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "flash.h"
 #include "calibration.h"
 #include "cli.h"
 #include "cmsis_os2.h"
