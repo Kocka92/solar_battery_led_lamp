@@ -1,0 +1,3 @@
+../Core/Src/cli.c:22:5:__io_putchar	16	static
+../Core/Src/cli.c:29:6:cli_printf	16	static
+../Core/Src/cli.c:40:6:CLI_ProcessCommand	40	static

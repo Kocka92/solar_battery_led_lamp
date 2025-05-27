@@ -1,0 +1,4 @@
+../Core/Src/calibration.c:11:6:App_Calibration_Init	4	static
+../Core/Src/calibration.c:28:6:CalibrateValue	32	static
+../Core/Src/calibration.c:48:6:IsCalibrationValid	16	static
+../Core/Src/calibration.c:57:6:ResetCalibration	16	static
